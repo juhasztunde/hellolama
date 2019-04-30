@@ -139,8 +139,8 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	background-color: #f2d9da;
+	border-color: #f2d9da;
 }
 /* Header Section */
 .intro {
