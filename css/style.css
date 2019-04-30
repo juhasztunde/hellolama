@@ -197,7 +197,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
-	background: url(../img/intro-bg7.jpg) no-repeat center top;
+	background: url(../img/intro-bg8.jpg) no-repeat center top;
 }
 .categories {
 	padding-bottom: 30px;
@@ -325,12 +325,12 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
+	background: url(../img/intro-bg10.jpg) no-repeat center top;
 }
 #contact h3 {
 	padding-top: 20px;
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
 }
 #contact form {
 	padding: 30px 0;
@@ -426,3 +426,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 font-family: "Marigold";
 src: url("../fonts/fonts/Marigold.ttf");
 }
+
+
+
