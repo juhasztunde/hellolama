@@ -93,6 +93,10 @@
     bottom: -50px;
 }
 
+.lamalogo{
+  max-height: 60%;
+}
+
 
 
 html, body {
@@ -143,7 +147,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0 0 15px;
   color: #444;
   font-weight: 500;
@@ -196,7 +200,7 @@ a:active, a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   text-align: center;
   overflow-x: hidden;
@@ -534,9 +538,10 @@ div#preloader {
 --------------------------------*/
 
 .about-area {
-  background: url("../img/background/rólunk.jpg") no-repeat center top / cover;
-
-  }
+  background: url("../img/background/hello.png") no-repeat;
+  background-size: 50%;
+  background-color: #fffaf7;
+}
 
 .single-well>a {
   display: inline-flex;
@@ -599,12 +604,12 @@ div#preloader {
 .single-services>h4 {
   color: #de739a;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .single-services>p {
   color: #333;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /*----------------------------------------
@@ -673,7 +678,7 @@ div#preloader {
 .faq-details a span.acc-icons::before {
   color: #333;
   content: "";
-  font-family: fontawesome;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   height: 40px;
   left: -51px;
@@ -690,7 +695,7 @@ div#preloader {
 
 .faq-details a.active span.acc-icons::before {
   content: "";
-  font-family: fontawesome;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   height: 40px;
   left: -51px;
@@ -745,7 +750,7 @@ div#preloader {
   font-weight: 500;
   margin-right: 5px;
   padding: 10px 20px;
-  font-family: raleway;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
@@ -1285,7 +1290,10 @@ div#preloader {
 }
 
 .portfolio-area {
-    background: url("../img/background/csapatunk.jpg") no-repeat center top / cover;
+    background: url("../img/background/csapatunk.jpg")  no-repeat center top / cover;
+}
+.portfolio1-area {
+    background: url("../img/background/referenciák1.png") no-repeat center top / cover;
 }
 /*----------------------------------------*/
 
@@ -1317,7 +1325,7 @@ div#preloader {
 
 .pri_table_list li.check.cross::after {
   content: "\f00d";
-  font-family: fontawesome;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   position: absolute;
   right: 50px;
@@ -1327,7 +1335,7 @@ div#preloader {
 
 .pri_table_list li.check::after {
   content: "\f00c";
-  font-family: fontawesome;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   position: absolute;
   right: 50px;
@@ -1423,7 +1431,7 @@ div#preloader {
 }
 
 .references-area {
-  background: url("../img/background/referenciák.jpg") no-repeat center;
+  background: url("../img/background/referenciák1.png") no-repeat center;
   height: auto;
   width: 100%;
   padding-bottom: 13%;
@@ -1432,20 +1440,20 @@ div#preloader {
 }
 
 .contact-area {
-  background: url("../img/background/creative.png") no-repeat left top;
+  background: url("../img/background/creative.png") no-repeat;
   background-size: 50%;
   background-color: #fffaf7;
 }
 
-.ending-area {
-  background: url("../img/background/pink.png") no-repeat center center;
+/*.ending-area {
+  background: url("../img/background/pink.png") no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
+    background-size: 100%;
   height: auto;
-}
+}*/
 
 .social-icons {
   max-height: 50px;
@@ -1596,7 +1604,7 @@ div#preloader {
 
 .blog-btn::after {
   content: "\f178";
-  font-family: fontawesome;
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   right: -20px;
   top: 1px;
