@@ -1305,11 +1305,11 @@ div#preloader {
 }
 
 .portfolio-area {
-    background: url("../img/background/csapatunk.png") no-repeat center top;
+    background: url("../img/background/csere_csapatunk.svg") no-repeat center top;
     background-size: cover;
 }
 .portfolio1-area {
-    background: url("../img/background/referenciák1.png") no-repeat center top / cover;
+    background: url("../img/background/csere_referenciak.svg") no-repeat center top / cover;
 }
 /*----------------------------------------*/
 
